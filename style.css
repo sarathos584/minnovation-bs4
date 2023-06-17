@@ -214,6 +214,7 @@ button.navbar-toggler {
   font-size: 12px;
   line-height: 14px;
   color: #1f1f1f;
+  margin-bottom: 18px;
 }
 .blogs .card-link {
   font-weight: 400;
@@ -221,12 +222,16 @@ button.navbar-toggler {
   line-height: 23px;
   color: #50a0c8;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 .blogs .card-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   color: #636363;
+}
+.blogs .card-text b{
+    color: black;
 }
 .blogs .card {
     border: none;
@@ -240,6 +245,7 @@ button.navbar-toggler {
 }
 .blogs .card-title{
     padding: 15px;
+    padding-bottom: 39px !important;
 }
 .blogs .row {
     row-gap: 2rem;
