@@ -205,9 +205,9 @@ button.navbar-toggler {
 .blogs {
   padding: 100px 0px;
 }
-.blogs .card-container{
-    border-radius: 10px;
-    background: #F6F6F6;
+.blogs .card-container {
+  border-radius: 10px;
+  background: #f6f6f6;
 }
 .blogs .date {
   font-weight: 500;
@@ -230,25 +230,112 @@ button.navbar-toggler {
   line-height: 26px;
   color: #636363;
 }
-.blogs .card-text b{
-    color: black;
+.blogs .card-text b {
+  color: black;
 }
 .blogs .card {
-    border: none;
-    max-width: 380px !important;
+  border: none;
+  max-width: 380px !important;
 }
 .blogs img {
-    width: 100%;
+  width: 100%;
 }
 .blogs .section-head {
-    margin-bottom: 46px;
+  margin-bottom: 46px;
 }
-.blogs .card-title{
-    padding: 15px;
-    padding-bottom: 39px !important;
+.blogs .card-title {
+  padding: 15px;
+  padding-bottom: 39px !important;
 }
 .blogs .row {
-    row-gap: 2rem;
+  row-gap: 2rem;
+}
+/* contact section styling  */
+.contact {
+  background: rgba(80, 160, 200, 0.1);
+}
+.contact p {
+  font-weight: 400;
+  line-height: 26px;
+  color: #636363;
+}
+.contact form textarea,
+.contact form input {
+  background: #ffffff;
+  border: 0.2px solid #bfbfbf;
+  resize: none;
+  width: 100%;
+}
+.contact form textarea::placeholder,
+.contact form input::placeholder {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #636363;
+}
+.contact input {
+  margin-bottom: 20px;
+  height: 40px;
+  padding-left: 10px;
+}
+.contact textarea {
+  margin-bottom: 30px;
+  height: 133px;
+  padding-left: 10px;
+  padding-top: 12px;
+}
+.contact .name-inputs {
+  gap: 1rem;
+}
+footer {
+  background: #1f1f1f;
+  min-height: 483px;
+  padding-top: 51px;
+  padding-bottom: 63px;
+  font-family: Open-Sans;
+}
+footer .upper-footer p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
+footer .upper-footer .d-flex {
+  gap: 25px;
+}
+footer .middle-footer h2 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+footer .middle-footer ul li {
+  list-style: url(./assets/arrow.svg);
+}
+footer .middle-footer ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #ffffff;
+}
+footer .lower-footer h2 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+footer .lower-footer a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
+footer .credits {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
 }
 @media screen and (max-width: 1200px) {
   .banner .row {
@@ -309,5 +396,16 @@ button.navbar-toggler {
   }
   .case-studies .case-img {
     width: 100%;
+  }
+  .contact .name-inputs {
+    display: block !important;
+  }
+  .contact img {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 361px) {
+  .products img {
+    width: 90%;
   }
 }
