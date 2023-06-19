@@ -30,10 +30,9 @@
   <body>
     <header class="container-fluid">
       <div class="container h-100">
-        <nav class="navbar navbar-expand-lg h-100">
-          <a class="navbar-brand h-100" href="#"
+        <nav class="navbar navbar-expand-lg h-100 py-0">
+          <a class="navbar-brand h-100 p-0" href="#"
             ><img
-              class="h-100"
               src="./assets/minnovation.svg"
               alt="company logo"
           /></a>
@@ -46,7 +45,7 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <div class="navbar-toggler-icon"></div>
+            <div class="navbar-toggler-icon"><img src="./assets/bars-solid.svg" alt="bar icon"></div>
           </button>
           <div
             class="collapse navbar-collapse justify-content-end"
@@ -203,7 +202,7 @@
           </p>
         </div>
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 text-center">
             <img
               class="case-img"
               src="./assets/case-study-1.png"
@@ -225,12 +224,17 @@
               whirlpool and third floor sundeck.
             </p>
             <button class="white-btn">
-              Read More <img src="./assets/arrow-btn.png" alt="arrow icon" />
+              Read More
+              <img
+                src="./assets/arrow-btn.png"
+                alt="arrow icon"
+                class="m-0 mr-1"
+              />
             </button>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 case-2-title">
             <h2 class="section-sub-head">Facilities Management</h2>
             <p class="blue-head">
               Optimised Scheduling of Essential Services at Remote Managed
@@ -245,10 +249,15 @@
               been listed on the Commonwealth Heritage List since 2004.
             </p>
             <button class="white-btn">
-              Read More <img src="./assets/arrow-btn.png" alt="arrow icon" />
+              Read More
+              <img
+                src="./assets/arrow-btn.png"
+                alt="arrow icon"
+                class="m-0 mr-1"
+              />
             </button>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 case-2-img text-center">
             <img
               class="case-img"
               src="./assets/case-study2.png"
@@ -257,10 +266,10 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 text-center">
             <img
               class="case-img"
-              src="./assets//case-study-3.png"
+              src="./assets/case-study-3.png"
               alt="case study image"
             />
           </div>
@@ -280,7 +289,12 @@
               cement.
             </p>
             <button class="white-btn">
-              Read More <img src="./assets/arrow-btn.png" alt="arrow icon" />
+              Read More
+              <img
+                src="./assets/arrow-btn.png"
+                alt="arrow icon"
+                class="m-0 mr-1"
+              />
             </button>
           </div>
         </div>
@@ -364,11 +378,11 @@
           <h1 class="section-head">Lets Connect</h1>
         </div>
         <div class="row">
-          <div class="col-lg-6 text-center">
+          <div class="col-lg-6 text-center img-container">
             <img src="./assets/contact.png" alt="image of contact section" />
           </div>
           <div class="col-lg-6">
-            <p>
+            <p class="contact-text">
               To learn more about optimising your operation or to become a
               partner, fill out the form to the right. We have experts ready to
               help you!
@@ -413,7 +427,7 @@
         <div class="row justify-content-center">
           <div class="col-md-4 upper-footer">
             <div class="footer-logo">
-              <img src="./assets/footer-logo.png" alt="footer logo" />
+              <img src="./assets/footer-logo.png" alt="footer logo" class="logo"/>
               <p>
                 Minnovation Technologies design and develop a suite of IoT
                 products. Our mission is to helpour customers to deliver IoT
@@ -430,33 +444,57 @@
           <div class="col-md-4 middle-footer">
             <h2>IMPORTANT LINKS</h2>
             <ul>
-              <li><a href="#">Terms and Conditions</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Security</a></li>
-              <li><a href="#">AlphaX Cloud SLA</a></li>
-              <li><a href="#">Support Policy</a></li>
-              <li><a href="#">Warranty Policy</a></li>
-              <li><a href="#">Service Status</a></li>
+              <li class="mb-2"><a href="#">Terms and Conditions</a></li>
+              <li class="mb-2"><a href="#">Privacy Policy</a></li>
+              <li class="mb-2"><a href="#">Security</a></li>
+              <li class="mb-2"><a href="#">AlphaX Cloud SLA</a></li>
+              <li class="mb-2"><a href="#">Support Policy</a></li>
+              <li class="mb-2"><a href="#">Warranty Policy</a></li>
+              <li class="mb-2"><a href="#">Service Status</a></li>
             </ul>
           </div>
           <div class="col-md-4 lower-footer">
-            <div class="sales">
+            <div class="sales mb-5">
               <h2>SALES & SUPPORT</h2>
-              <div>
+              <div class="mb-2">
                 <img
                   src="./assets/location-icon.svg"
                   alt="location icon"
                   class="mr-1"
                 /><a href="#">1227, 1 Queens Road, Melbourne, VIC 3004</a>
               </div>
-              <div>
+              <div class="mb-2">
                 <img
                   src="./assets/phone-icon.svg"
                   alt="phone icon"
                   class="mr-1"
                 /><a href="#">1300 916 082</a>
               </div>
-              <div>
+              <div class="mb-2">
+                <img
+                  src="./assets/mail-icon.svg"
+                  alt="mail icon"
+                  class="mr-1"
+                /><a href="#">support@minnovation.com.au</a>
+              </div>
+            </div>
+            <div class="sales">
+              <h2>SERVICE CENTER</h2>
+              <div class="mb-2">
+                <img
+                  src="./assets/location-icon.svg"
+                  alt="location icon"
+                  class="mr-1"
+                /><a href="#">11 Rays Way, Pakenham, VIC 3810</a>
+              </div>
+              <div class="mb-2">
+                <img
+                  src="./assets/phone-icon.svg"
+                  alt="phone icon"
+                  class="mr-1"
+                /><a href="#">1300 916 082</a>
+              </div>
+              <div class="mb-2">
                 <img
                   src="./assets/mail-icon.svg"
                   alt="mail icon"
@@ -468,8 +506,7 @@
         </div>
         <div class="credits text-center">
           <p>
-            Copyright (c) 2022 Metamorph Business Pty Ltd | All Rights
-            Reserved
+            Copyright (c) 2022 Metamorph Business Pty Ltd | All Rights Reserved
           </p>
         </div>
       </div>
