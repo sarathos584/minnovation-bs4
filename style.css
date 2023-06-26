@@ -517,4 +517,18 @@ footer .credits {
   .products .row div {
     margin-bottom: .7rem;
   }
+  .blue-head{
+    font-size: 21px;
+    line-height: 27px;
+  }
+  footer .lower-footer a{
+    font-size: 12px;
+  }
+  .blue-btn{
+    padding: 7px 12px;
+  }
+  .section-head{
+    font-size: 24px;
+    line-height: 33px;
+  }
 }
