@@ -514,4 +514,7 @@ footer .credits {
   header nav {
     display: block !important;
   }
+  .products .row div {
+    margin-bottom: .7rem;
+  }
 }
