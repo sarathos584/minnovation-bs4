@@ -511,4 +511,7 @@ footer .credits {
   .navbar-toggler {
     padding: 0 !important;
   }
+  header nav {
+    display: block !important;
+  }
 }
